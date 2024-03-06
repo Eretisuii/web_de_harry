@@ -1,0 +1,36 @@
+*{
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none; /* Enlace sin subrayado*/
+    font-weight: bold; /* En negrita */
+    font-size: 1em; /* mayor tamaño */
+}
+a:link{
+    color: white; /* enlaces no visitados */
+}
+a:visited {
+    color: #e49c54; /* enlaces visitados */
+}
+a:hover{
+    color: #dc741c; /* enlace que pasa el cursor*/
+}
+a:active{
+    color: aqua; /* enlace cuando se hace click*/
+}
+
+header{
+    background-color: grey; /* fondo de header */
+}
+img{
+    width: 7%;
+    margin-bottom: 0%;
+}
+p{
+    color: #dc741c;
+    font-weight: bold;
+}
