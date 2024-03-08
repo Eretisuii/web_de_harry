@@ -5,10 +5,62 @@
     box-sizing: border-box;
 }
 
+html{
+    margin: 3px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: grey; /* fondo de header */
+}
+
+.logo{
+    float: left;
+    width: 30%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.logo > img{
+    width: 50px;
+}
+
+h2 > span{
+    color: #dc741c;
+}
+
+.botones_menu{
+    float: right;
+    width: auto;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu{
+    width: auto;
+}
+
+ul{
+    list-style: none;
+    /*overflow: hidden;*/
+}
+li{
+    /*display:block;*/
+    float:left;
+    /*padding:0 10px;*/
+    
+}
+
 a{
     text-decoration: none; /* Enlace sin subrayado*/
     font-weight: bold; /* En negrita */
     font-size: 1em; /* mayor tamaño */
+    color: #dc741c;
+    font-weight: bold;
 }
 a:link{
     color: white; /* enlaces no visitados */
@@ -23,14 +75,4 @@ a:active{
     color: aqua; /* enlace cuando se hace click*/
 }
 
-header{
-    background-color: grey; /* fondo de header */
-}
-img{
-    width: 7%;
-    margin-bottom: 0%;
-}
-p{
-    color: #dc741c;
-    font-weight: bold;
-}
+/*https://www.falconmasters.com/web-design/menu-de-navegacion-responsive/*/
