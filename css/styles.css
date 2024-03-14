@@ -1,78 +1,85 @@
-*{
-    border: 1px solid red;
+/* Estilos de reseteo para todos los elementos */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
-    margin: 3px;
+/* Margen exterior mínimo para el elemento html */
+html {
+    margin: 0;
 }
-header{
+
+/* Estilos del encabezado */
+header {
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Centra verticalmente los elementos */
     height: 50px;
-    background-color: grey; /* fondo de header */
+    background-color: grey; /* Color de fondo del encabezado */
+    padding: 0 20px; /* Agrega un relleno interno */
+    /*border-bottom: #dc741c solid 1px;*/
 }
 
-.logo{
-    float: left;
-    width: 30%;
-    text-transform: uppercase;
+/* Estilos del logotipo */
+.logo {
+    width: 30%; /* Ancho del logotipo */
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */
     display: flex;
     align-items: center;
 }
 
-.logo > img{
-    width: 50px;
+.logo img {
+    width: 50px; /* Tamaño del logotipo */
 }
 
-h2 > span{
-    color: #dc741c;
+h2 span {
+    color: #dc741c; /* Color del texto resaltado */
 }
 
-.botones_menu{
-    float: right;
-    width: auto;
-    text-transform: uppercase;
+/* Estilos del menú de botones */
+.botones_menu {
+    width: auto; /* Ancho automático */
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */
+}
+
+/* Estilos de la lista de menú */
+.menu {
+    list-style: none; /* Quita los marcadores de lista */
+    display: flex;
     display: flex;
     align-items: center;
-
+    flex-wrap: nowrap; /* Evita el ajuste de línea en los elementos */
 }
 
-.menu{
-    width: auto;
+.menu li {
+    margin-right: 20px; /* Espacio entre elementos del menú */
 }
 
-ul{
-    list-style: none;
-    /*overflow: hidden;*/
-}
-li{
-    /*display:block;*/
-    float:left;
-    /*padding:0 10px;*/
-    
+.menu li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
 }
 
-a{
-    text-decoration: none; /* Enlace sin subrayado*/
-    font-weight: bold; /* En negrita */
-    font-size: 1em; /* mayor tamaño */
-    color: #dc741c;
-    font-weight: bold;
-}
-a:link{
-    color: white; /* enlaces no visitados */
-}
-a:visited {
-    color: #e49c54; /* enlaces visitados */
-}
-a:hover{
-    color: #dc741c; /* enlace que pasa el cursor*/
-}
-a:active{
-    color: aqua; /* enlace cuando se hace click*/
+.menu li a {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 1em; /* Tamaño de fuente */
+    color: #dc741c; /* Color del texto */
 }
 
-/*https://www.falconmasters.com/web-design/menu-de-navegacion-responsive/*/
+/* Estilos de los enlaces */
+.menu li a:link {
+    color: white; /* Color de los enlaces no visitados */
+}
+
+.menu li a:visited {
+    color: #e49c54; /* Color de los enlaces visitados */
+}
+
+.menu li a:hover {
+    color: #dc741c; /* Color de los enlaces al pasar el mouse */
+}
+
+.menu li a:active {
+    color: aqua; /* Color de los enlaces activos */
+}

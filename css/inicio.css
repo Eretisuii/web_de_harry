@@ -1,0 +1,26 @@
+.contenedor-imagen {
+    position: relative;
+    width: 100%; /* Ajusta según sea necesario */
+    height: 300px; /* Ajusta según sea necesario */
+    background-image: url('Img\Carroussel\Carroussel-1.webp.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.texto-superpuesto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Color del texto */
+}
+
+.texto-superpuesto h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.texto-superpuesto p {
+    font-size: 18px;
+}
