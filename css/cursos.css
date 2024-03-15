@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    border-top: 1px solid black;
+    margin-top: 20px;
+    border-bottom: 1px solid black; 
+    margin-bottom: 20px; 
+    padding: 10px;
+}
+
+h2{
+    text-transform: uppercase;
+}
+.contenedor {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contenido {
+    width: 50%; 
+    padding: 20px; 
+}
+
+.contenido p#negrita{
+    font-size: 1.05em; 
+    font-weight: bold; 
+    padding-bottom: 10px;
+}
+
+.imagen {
+    width: 50%;
+    padding: 20px; 
+}
+
+img {
+    width: 100%;
+    height: auto; 
+}
+
+.boton {
+    text-align: right; 
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1.6rem;
+    color: white; 
+    background-color: grey; 
+    border: 2px solid black; 
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; 
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Agrega transiciones suaves */
+}
+
+/* Cambia el estilo del botón cuando se pasa por encima*/
+button:hover {
+    background-color: black; 
+    color: white; 
+    border-color: white; 
+}
+

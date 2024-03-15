@@ -1,26 +1,68 @@
-.contenedor-imagen {
-    position: relative;
-    width: 100%; /* Ajusta según sea necesario */
-    height: 300px; /* Ajusta según sea necesario */
-    background-image: url('Img\Carroussel\Carroussel-1.webp.png');
-    background-size: cover;
-    background-position: center;
+.contenedor_imagen {
+    border-top: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
 }
 
-.texto-superpuesto {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white; /* Color del texto */
+.texto_superpuesto {
+    background-image: url(../Img/Carroussel/Carroussel-1.webp);
+    background-size: cover; /*Cubre completamente el contenedor sin que se repita */
+    background-position: center; /*Centra la imagen en el contenedor */
+    padding: 10px; 
+    width: auto;
+    height: 700px; /*Altura fija para asegurar que se vea bien la imagen*/
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
 }
 
-.texto-superpuesto h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+.texto_superpuesto > h1{
+    color: white; /* Cambia el color del texto*/
 }
 
-.texto-superpuesto p {
-    font-size: 18px;
+.contenedor {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.izquierda {
+    float: left; 
+    display: block;
+    width: 40%;
+}
+
+.izquierda p {
+    margin-bottom: 30px; /*Espacio entre el párrafo y el botón */
+    font-size: 1.6rem;
+    float: left;
+}
+
+.derecha {
+    
+    float: left;
+    display: block;
+    display: flow-root;
+    width: 60%;
+}
+
+.derecha img {
+    max-width: calc(33.33% - 10px); /* Ajustamos el ancho de las imágenes para que ocupen un tercio del contenedor con espacio entre ellas */
+}
+
+.izquierda boton {
+    font-size: 1.6rem;
+    color: white; 
+    background-color: grey; 
+    border: 2px solid black; 
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; 
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Agrega transiciones suaves */
+}
+
+/* Cambia el estilo del botón cuando se pasa por encima*/
+.izquierda boton:hover {
+    background-color: black; 
+    color: white; 
+    border-color: white; 
 }
