@@ -7,3 +7,43 @@ h1 {
     padding: 10px;
     text-transform: uppercase;
 }
+
+.contenedor {
+    display: flex;
+    justify-content: space-between; /* Distribuye las columnas de manera uniforme */
+}
+
+.columna {
+    width: 25%;
+    padding: 20px;
+    display: flex; /* Aplicar flexbox para centrar verticalmente */
+    flex-direction: column; /* Alinear elementos en columna */
+    align-items: center; /* Centrar elementos verticalmente */
+}
+
+.columna img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+.columna h3 {
+    margin-bottom: 5px; 
+}
+
+.columna p {
+    margin-bottom: 10px; 
+}
+
+.columna button {
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: black; 
+    color: #fff; 
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.columna button:hover {
+    background-color: #0056b3; 
+}
