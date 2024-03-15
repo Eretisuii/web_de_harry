@@ -1,85 +1,76 @@
-/* Estilos de reseteo para todos los elementos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Margen exterior mínimo para el elemento html */
-html {
-    margin: 0;
-}
-
-/* Estilos del encabezado */
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Centra verticalmente los elementos */
+    align-items: center; /*centra verticalmente los elementos */
     height: 50px;
-    background-color: grey; /* Color de fondo del encabezado */
-    padding: 0 20px; /* Agrega un relleno interno */
-    /*border-bottom: #dc741c solid 1px;*/
+    background-color: grey; 
+    padding: 0 20px; /* Agrega un relleno interno*/
 }
 
-/* Estilos del logotipo */
+
 .logo {
-    width: 30%; /* Ancho del logotipo */
-    text-transform: uppercase; /* Transforma el texto a mayúsculas */
+    width: 30%; 
+    text-transform: uppercase; /*transforma el texto a mayúsculas*/
     display: flex;
     align-items: center;
 }
 
 .logo img {
-    width: 50px; /* Tamaño del logotipo */
+    width: 50px;
 }
 
 h2 span {
-    color: #dc741c; /* Color del texto resaltado */
+    color: #dc741c; 
 }
 
-/* Estilos del menú de botones */
 .botones_menu {
-    width: auto; /* Ancho automático */
-    text-transform: uppercase; /* Transforma el texto a mayúsculas */
+    width: auto; 
+    text-transform: uppercase; 
 }
 
-/* Estilos de la lista de menú */
+
 .menu {
-    list-style: none; /* Quita los marcadores de lista */
+    list-style: none; /*quita los marcadores de lista*/
     display: flex;
     display: flex;
     align-items: center;
-    flex-wrap: nowrap; /* Evita el ajuste de línea en los elementos */
+    flex-wrap: nowrap; /*evita el ajuste de línea en los elementos*/
 }
 
 .menu li {
-    margin-right: 20px; /* Espacio entre elementos del menú */
+    margin-right: 20px; 
 }
 
 .menu li:last-child {
-    margin-right: 0; /* Elimina el margen derecho del último elemento */
+    margin-right: 0; /*elimina el margen derecho del último elemento*/
 }
 
 .menu li a {
-    text-decoration: none; /* Quita el subrayado del enlace */
-    font-weight: bold; /* Texto en negrita */
-    font-size: 1em; /* Tamaño de fuente */
-    color: #dc741c; /* Color del texto */
+    text-decoration: none; /*quita el subrayado del enlace*/
+    font-weight: bold; 
+    font-size: 1em; 
+    color: #dc741c; 
 }
 
-/* Estilos de los enlaces */
+/*Estilos de los enlaces*/
 .menu li a:link {
-    color: white; /* Color de los enlaces no visitados */
+    color: white; /*color de los enlaces no visitados */
 }
 
 .menu li a:visited {
-    color: #e49c54; /* Color de los enlaces visitados */
+    color: #e49c54; /*color de los enlaces visitados */
 }
 
 .menu li a:hover {
-    color: #dc741c; /* Color de los enlaces al pasar el mouse */
+    color: #dc741c; /*color de los enlaces al pasar el mouse*/
 }
 
 .menu li a:active {
-    color: aqua; /* Color de los enlaces activos */
+    color: aqua; /*color de los enlaces activos*/
 }

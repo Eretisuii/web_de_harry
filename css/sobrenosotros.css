@@ -9,14 +9,14 @@ h1 {
 
 .contenedor {
     display: flex;
-    align-items: center; /*Alinea verticalmente los elementos */
+    align-items: center; /*alinea verticalmente los elementos */
     padding: 20px;
 }
 
 .izquierda img {
-    display: block; /* Evita espacios no deseados debajo de la imagen*/
-    margin: 0 auto; /* Centra la imagen horizontalmente*/
-    max-width: 100%; /*Ajusta la imagen al tamaño máximo*/
+    display: block; /*qita espacios debajo de la imagen*/
+    margin: 0 auto; /*centra la imagen horizontalmente*/
+    max-width: 100%; /*ajusta la imagen al tamaño máximo*/
 }
 
 .derecha {
@@ -34,17 +34,12 @@ h1 {
 }
 
 .derecha p#titulo {
-    color: black; /* Color negro */
-    font-style: italic; /* Texto en cursiva */
+    color: black;
+    font-style: italic;
     font-weight: bold;
     padding-bottom: 20px;
 }
 
-.derecha p#contenido {
-    font-family: "Arial", sans-serif; /* Cambia "Arial" por la fuente que prefieras */
-    font-style: normal; /* Restablece el estilo de la fuente a normal si es necesario */
-    /* Añade estilos adicionales para hacer que la letra se vea bonita */
-}
 .derecha img {
     display: block; 
     max-width: 100px; 
@@ -56,10 +51,10 @@ h1 {
 }
 
 .redes_sociales a {
-    display: inline-block; /*Alinea los íconos*/
-    margin: 0 5px; /*Espacio horizontal entre los íconos */
+    display: inline-block; /*alinea los íconos*/
+    margin: 0 5px; /*espacio horizontal entre los íconos*/
 }
 
 .redes_sociales img {
-    width: 30px; /*Ajusta el tamaño de los íconos*/
+    width: 30px; /*Ajuste de los íconos*/
 }

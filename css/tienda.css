@@ -10,15 +10,15 @@ h1 {
 
 .contenedor {
     display: flex;
-    justify-content: space-between; /* Distribuye las columnas de manera uniforme */
+    justify-content: space-between; /*Distribuye las columnas de manera uniforme*/
 }
 
 .columna {
     width: 25%;
     padding: 20px;
-    display: flex; /* Aplicar flexbox para centrar verticalmente */
-    flex-direction: column; /* Alinear elementos en columna */
-    align-items: center; /* Centrar elementos verticalmente */
+    display: flex; /*aplicar flexbox para centrar verticalmente*/
+    flex-direction: column; /*alinear elementos en columna*/
+    align-items: center; /*centrar elementos verticalmente */
 }
 
 .columna img {
